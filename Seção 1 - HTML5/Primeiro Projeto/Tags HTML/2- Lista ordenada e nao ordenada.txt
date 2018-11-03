@@ -1,0 +1,18 @@
+	<body>
+		<h2> Mapa do Site </h2>
+		<!-- Lista nao ordenada: circle, square, disc -->
+		<ul type="disc"> <!--Urnodered List (apenas marcadores) -->
+			<li> Home </li> <!-- List Item -->
+			<li> Quem somos </li>
+			<li> Contato </li>
+		</ul>
+
+		<h2> Perguntas</h2>
+		<!-- Lista ordenada: 1, A, a, I, i-->
+		<ol type = "1"> <!-- Ordered list - "numerado" -->
+			<li> Comida favorita? </li>
+			<li> Carro Favorito? </li>
+			<li> Série Favorita? </li>
+		</ol>
+		
+	</body>

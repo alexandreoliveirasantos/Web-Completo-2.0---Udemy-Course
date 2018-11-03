@@ -1,0 +1,11 @@
+<body>
+
+	<h2> Caracteres Especiais </h2>
+
+	&lt;p&gt; <!-- Pesquisar no Google: HTML Entities -->
+	<br>
+	&copy; Todos os direitos reservados
+	<br>
+	Home &nbsp;&nbsp;&nbsp;- Quem somos&nbsp;&nbsp;&nbsp; - Contato
+	
+</body>

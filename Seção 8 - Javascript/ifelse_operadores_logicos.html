@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript</title>
+		<meta charset="utf-8">
+		<script>
+	
+			/*if(2 == 2 && 3 >= 1){
+				document.write('Verdadeiro')
+			}
+
+			if(2 == 3 || 3 >= 1){
+				document.write('Verdadeiro')
+			}else{
+				document.write('Falso')
+			}
+
+			if(!(5<2)){*/  /* (!) inverte o resultado true > false*/
+				/*document.write('Verdadeiro')
+			}else{
+				document.write('Falso')
+			}*/
+			var nota = prompt('Digite a nota do aluno: ')
+			var faltas = prompt('Digite a quantidade de faltas: ')
+			var media = 7
+			var faltas_maximas = 15
+
+			/*Operador ternario sintaxe: var resultado = <condicao> ? <verdadeiro> : <falso> */
+			var (resultado = nota >= media && faltas <= faltas_maximas) ? "Aprovado" : "Reprovado"
+			document.write(resultado)
+		</script>
+	</head>
+
+	<body>
+
+	</body>
+</html>

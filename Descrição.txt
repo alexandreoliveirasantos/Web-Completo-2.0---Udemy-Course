@@ -1,0 +1,6 @@
+Projeto desenvolvido durante estudos desenvolvidos na plataforma Udemy.
+
+Link do curso: https://www.udemy.com/web-completo/
+
+Todos os códigos aqui desenvolvidos foram implementados pelo proprietário deste repositório através dos 
+desafios propostos no curso disponível na Udemy.

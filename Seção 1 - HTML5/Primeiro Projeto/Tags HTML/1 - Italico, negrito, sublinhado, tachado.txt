@@ -1,0 +1,10 @@
+Formatação
+
+<body>
+	Esse é um <strong>texto</strong> negrito <br>
+	Esse é um <em>texto</em> itálico <br>
+	<hr>
+	Esse é um <u>texto</u> sublinhado <br>
+	Esse é um <strike>texto</strike> tachado 
+	<br>
+</body>

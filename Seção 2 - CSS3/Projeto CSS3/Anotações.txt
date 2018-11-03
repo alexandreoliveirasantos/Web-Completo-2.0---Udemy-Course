@@ -1,0 +1,5 @@
+Tipos de uso do CSS:
+
+Inline Style (Direto nas tags/código HTML)
+Internal Style Sheet (Folha de estilo interna, adicionada dentro do Head)
+External Style Sheet

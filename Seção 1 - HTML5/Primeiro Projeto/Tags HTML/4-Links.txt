@@ -1,0 +1,14 @@
+<body>
+	<a href="">Home</a> 
+	/
+	<a href="contato.html">Contato</a>
+
+	<h2> Página Principal</h2>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor commodo ante, eu tincidunt est scelerisque vitae. Praesent velit sem, venenatis quis odio sed, tempus fermentum leo. Aliquam erat volutpat.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor commodo ante, eu tincidunt est scelerisque vitae. Praesent velit sem, venenatis quis odio sed, tempus fermentum leo. Aliquam erat volutpat.
+	</p>
+
+</body>

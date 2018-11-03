@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Elementos inline, block e inline-block
+	</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		.borda{
+			border: 1px solid red;[
+			display: block; /*Altera comportamento de elementos inline para tipo block*/
+			/*display: inline;*/ /*Alterando comportamento do h1 para inline*/
+			/*display: inline-block;*/ /*Se texto ocupa toda a tela ele cria uma quebra e cai para proxima linha*/
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+
+		<span class="borda">inline 1</span>
+		<span class="borda">inline 2</span> <!--span é inline, ou seja, um elemento do lado do outro e largura definida pelo conteúdo -->
+
+		<!--<h1 class="borda">Bloco 1</h1>
+		<h1 class="borda">Bloco 2</h1> --> <!-- h1 é por padrao um elemento do tipo block. h1, p, div sao por padrao block - ocupa toda espaço da tela e um elemento fica abaixo do outro-->
+
+</body>
+</html>

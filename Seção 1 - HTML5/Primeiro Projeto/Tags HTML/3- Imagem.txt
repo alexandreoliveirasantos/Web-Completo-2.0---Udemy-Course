@@ -1,0 +1,6 @@
+	<body>
+		<!--widtch define largura da imagem -->
+		<!--height define altura da imagem -->
+		<!--img pode ser inserido um site externo da imagem-->
+		<img src="imagens/ferrari.jpg" width="700" height = "430">
+	</body>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Posicionamento (static, relative, absolut, fixed)
+	</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+	body{
+		background: #007fc7;
+	}
+		
+		#container{
+			background:	#fff;
+			width: 800px;
+			margin: 10px auto; /*Margem sup e inf de 10px e espaçamento de 80px laterais esq e direita - auto diz q container é automatico e centralizado*/
+			padding: 10px; /*Espaçamento interno no container*/
+			position: relative; /*absoluta, relativa ou fixa*/
+		}
+
+		h1{
+			/*position: static; static é padrao para os elementos*/
+		}
+
+		p{
+			width: 300px;
+
+		}
+
+		.absolute{ /*SAI DO FLUXO NORMAL E N AFETA POSICAO DOS OUTROS ELEMENTOS DA PAGINA, ELE OS SOBREPÕE..*/
+			border: 1px solid red;
+			position: absolute;
+			background: #f2f2f2;
+			/*left: 350px;*/
+			top: 80px;
+			right: 80px;
+		}
+
+		.fixed{ /*Posicionamento fica fixo em relação à janela, não move mesmo existindo a barra de rolagem - pode ser usado para chats, menus...*/
+			border: 1px solid red;
+			position: fixed;
+			background: #f2f2f2;
+			margin: 0px;
+			top: 0px;
+			right: 20px;
+		}
+
+		.relative{
+			border: 1px solid red;
+			position: relative;
+			/*4 propriedades de deslocamento para movimentar nosso paragrafo: top, right, bottom, left*/
+			top: -20px;
+			/*left: 300px;*/
+
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="container">
+		<h1>Posicionamentos</h1>
+		<p>
+			P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+		</p>
+		<p class="fixed">
+			P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+		</p>
+		<p>
+			P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at porta nibh. Ut posuere ex a lectus facilisis maximus. Proin ut porttitor lacus, in vulputate risus.
+		</p>
+	</div>
+
+</body>
+</html>
